@@ -1,0 +1,206 @@
+/* :::: GLOBAL CSS :::: */
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+    margin: 10px 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* :::: FONT STYLES :::: */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+.instructions p {
+    font-weight: 700;
+}
+
+.instructions p {
+    font-size: 1.5em;
+}
+
+/* :::: ALIGNMENT :::: */
+.navLinks {
+    text-align: right;
+}
+
+h1,
+footer {
+    text-align: center;
+}
+
+/* :::: COLORS :::: */
+/* GREY */
+body,
+.dwnLoad a {
+    background: #d3d3d3;
+}
+
+/* WHITE */
+.midSection {
+    background: #ffffff;
+}
+
+/* MINT GREEN */
+.navLinks li,
+.btn p {
+    background: #F5FFFA;
+}
+
+/* DARK MINT GREEN */
+.navLinks li:hover,
+.btn p:hover,
+.dwnLoad a:hover {
+    background: #d9f5e7;
+}
+
+/* :::: HEADER :::: */
+.navLinks {
+	float: right;
+    width: 70%;
+    margin-right: 20px;
+}
+
+.navLinks li {
+    display: inline-block;
+    margin: 10px 0 10px 10px;
+    padding: 5px 10px;
+}
+
+/* :::: SECTION :::: */
+.midSection {
+    width: 90%; 
+    min-height: calc(100vh - 300px);
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.midSection p {
+    padding: 20px 25px;
+}
+
+.instructions {
+    width: 50%;
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+.instructions p {
+    margin-left: 24px;
+    padding: 0 !important;
+    margin-bottom: 10px;
+}
+
+.dwnLoad {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dwnLoad a {
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    text-align: center; 
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+
+.btn p {
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.btn p:hover {
+    cursor: pointer;
+}
+
+/* :::: FOOTER :::: */
+.social-icon {
+    max-width: 25px;
+    margin: 0 20px;
+}
+
+.heightAdjust {  
+    min-height: calc(100vh - 230px);
+}
+
+@media (max-width: 890px) {
+    .instructions {
+    width: 90%;
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+}
+@media (max-width: 550px) {
+.btn {
+    display: none;
+}
+
+.navLinks {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+}
+
+.navLinks li {
+    float: none;
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.instructions li {
+    font-size: .85em;
+    width: 85%;
+    line-height: 1.2em;
+}
+
+.midSection {
+    min-height: calc(100vh - 187px);
+}
+
+.heightAdjust {
+    min-height: calc(100vh - 100px);
+}
+}
+/* ::::::::: *** BACKGROUND EFFECTS *** ::::::::: */
+/* :::: *** COPY AND PASTE INTO YOUR CSS *** :::: */
+.bgkFXcenter {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.backgroundEffects {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.bgFXcontainer {
+    position: relative;
+}
+
+@keyframes circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
+
+
+/* :::: *** COPY AND PASTE ABOVE *** :::: */
