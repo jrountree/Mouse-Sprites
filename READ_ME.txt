@@ -1,5 +1,7 @@
 Thank you for downloading Mouse Sprite Effects 1.0 by Jesse Rountree!  This is a simple yet entertainling effect that will add life to any site.  Follow the following steps to ensure proper installation.  Thank you!
 
+See it in action here:  http://jesserountree.com/mouseSprites/
+
 ***
 STEP 1
 
